@@ -1,0 +1,15 @@
+DB_HOST = "10.116.0.31" #"10.120.4.171"
+DB_NAME_TIS = "htms" #htms
+DB_NAME_TIM = "tis"
+DB_USER = "root"
+DB_PASSWORD = "itspe"
+PATH = "/var/www/html/tis"
+UTILS_PATH = PATH + "/gui/utils"
+ATCSPATH = "/var/www/html/atcs"
+LOGPATH_TIMInstructions = "/var/log/tisLog/TIMInstructionsLog"
+LOGPATH_OutputLog = "/var/log/tisLog/OutputLog"
+DEBUG = True
+STARTDAYTIME = 28795 #23394 	# 6:29:54 -> 6*3600 + 29*60 + 54
+ENDDAYTIME = 79195  #75600 #79200 # 23:59 -> 23*3600 + 59*60
+GMAIL_USER = "support@itspe.co.in"
+GMAIL_PASS = "support@itspe"
